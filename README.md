@@ -5,7 +5,7 @@ Laravel 3DES加密解密，和java,ios互通，使用openssl，必须有openssl�
 ### 安装方法 ###
 
 ```php
-composer require youthage/laravel-3des
+composer require wuhaohui/laravel-3des
 ```
 
 ### 配置方法 ###
@@ -13,7 +13,7 @@ composer require youthage/laravel-3des
 配置加密key和iv,如下。也可动态使用key和iv
 
 ```php
-config文件夹下创建baseconfig.php
+config文件夹下创建3des.php
 
 内容
 <?php
