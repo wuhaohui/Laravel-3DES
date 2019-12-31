@@ -1,11 +1,11 @@
 {
-    "name": "youthage/laravel-3des",
+    "name": "whh/laravel-3des",
     "description": "Laravel Des3 encode",
     "license": "MIT",
     "authors": [
         {
-            "name": "YouthAge",
-            "email": "myouthage@gmail.com"
+            "name": "wuhaohui",
+            "email": "haohui.wu@outlook.com"
         }
     ],
     "minimum-stability": "dev",
