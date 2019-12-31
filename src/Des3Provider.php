@@ -25,8 +25,8 @@ class Des3Provider extends ServiceProvider
     {
         // 在容器中注册
         $this->app->singleton('des3', function (){
-            $key = config('baseconfig.DES3_KEY');
-            $iv = config('baseconfig.DES3_IV');
+            $key = config('3des.DES3_KEY');
+            $iv = config('3des.DES3_IV');
             return new Des3($key, $iv);
         });
     }
